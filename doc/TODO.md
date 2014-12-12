@@ -1,0 +1,7 @@
+- test get\_or\_init\_state(.) in util module
+- implement timers to nag people
+- factor out and move all http related utility functions to the util module
+- send relayed messages to multiple channels (and tests for this)
+- externalize now hardcoded URLs
+- provision: first print list of nodes to be rebooted/or done action to, then wait for confirmation. it needs sergei modifications too (by Zsol)
+- autorevert: pasha could offer at the beginning of a prio1 to revert everything that was deployed in the last N hours. (by veszi) 
