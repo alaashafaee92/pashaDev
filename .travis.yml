@@ -7,8 +7,4 @@ branches:
   only:
     - master
 notifications:
-  email:
-    - alaa.shafaee@prezi.com
-    - balazs.dano@prezi.com
-    - mohammed.showaib@prezi.com
-    - ferenc.murcsik@prezi.com
+  email: false
