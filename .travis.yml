@@ -1,8 +1,6 @@
 language: node_js
 node_js:
-  - "0.11"
   - "0.10"
-  - "0.8"
 branches:
   only:
     - master
@@ -11,4 +9,5 @@ services:
 before_script:
   - npm update -g npm
 notifications:
-  email: false
+  email:
+    - alaa.shafaee@prezi.com
