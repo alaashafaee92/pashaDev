@@ -168,6 +168,3 @@ describe 'alert command', () ->
             done()
         adapter.receive(new TextMessage(user,
             "#{robot_name} alert list"))
-
-    it 'should fail to test for travis integration', (done) ->
-        throw new Error()
