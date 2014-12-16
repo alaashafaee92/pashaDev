@@ -6,5 +6,7 @@ node_js:
 branches:
   only:
     - master
+services:
+  - redis-server
 notifications:
   email: false
